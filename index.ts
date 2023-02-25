@@ -12,8 +12,9 @@ if (b==="+") {
   console.log("wrong statement")  
 }
 }
-console.log(calC(5,"+",5))
-console.log(calC(10,"-",5))
-console.log(calC(5,"*",2))
-console.log(calC(10,"/",2))
-console.log(calC(10,"z",2))
+console.log(calC(5,"+",5))//10
+console.log(calC(10,"-",5))//5
+console.log(calC(5,"*",2))//10
+console.log(calC(10,"/",2))//10
+console.log(calC(10,"z",2))//wrong answer
+
